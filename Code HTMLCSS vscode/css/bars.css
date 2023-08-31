@@ -1,0 +1,6 @@
+/* Bar Height */
+.bar-height { height: 3px; }
+
+/* Bootstrap-like color selectors */
+.bg-cozy{background-color:#ea77ad !important} /* klassen finns inte i bootstrap, därför läggs den i denna fil */
+.text-cozy{color:#ea77ad !important} /* klassen finns inte i bootstrap, därför läggs den i denna fil */
