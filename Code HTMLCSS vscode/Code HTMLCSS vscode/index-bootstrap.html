@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidz school</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4838fd8068.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <link href="css\bars.css" type="text/css" rel="stylesheet">
+    <link href="css\nav.css" type="text/css" rel="stylesheet">
+    <link href="css\bootstrap-overrides.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Flerfärgad rad högst upp på sidan -->
+        <div class="d-flex flex-row"> 
+            <div class="col bar-height bg-warning d-none d-md-block"></div>
+            <div class="col bar-height bg-success d-none d-md-block"></div>
+            <div class="col bar-height bg-danger d-none d-md-block"></div>
+            <div class="col bar-height bg-info d-none d-md-block"></div>
+            <div class="col bar-height bg-primary d-none d-md-block"></div>
+            <div class="col bar-height bg-cozy d-none d-md-block"></div>
+            <div class="col bar-height bg-warning"></div>
+            <div class="col bar-height bg-success"></div>
+            <div class="col bar-height bg-danger"></div>
+            <div class="col bar-height bg-info"></div>
+            <div class="col bar-height bg-primary"></div>
+            <div class="col bar-height bg-cozy"></div>
+        </div>
+        <!-- Navigeringselement -->
+        <nav class="d-flex flex-row max-width align-items-center justify-content-between p-3 mx-auto">
+            <img src="images/logo-school.png"> 
+            <div class="d-none d-md-flex">
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center">
+                    <i class="fa fa-home text-white shadow bg-info rounded-100 text-center nav-icon"></i>
+                    <span class="text-info">Home</span>
+                </a>
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5">
+                    <i class="fa fa-store text-white shadow bg-cozy rounded-100 text-center nav-icon"></i>
+                    <span class="text-cozy">Store</span>
+                </a>
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5">
+                    <i class="fa fa-user-graduate text-white shadow bg-success rounded-100 text-center nav-icon"></i>
+                    <span class="text-success">Courses</span>
+                </a>
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5">
+                    <i class="fa fa-blog text-white shadow bg-warning rounded-100 text-center nav-icon"></i>
+                    <span class="text-warning">Blog</span>
+                </a>
+            </div>
+            <div>
+                <button class="btn btn-cozy shadow py-2 mr-2 position-relative">
+                    <i class="fa fa-shopping-basket text-white"></i>
+                    <span class="badge btn-badge position-absolute bg-success rounded-100 text-white border border-white">3</span>
+                </button>
+                <button class="btn btn-info shadow d-md-none py-2">
+                    <i class="fa fa-bars text-white"></i>
+                </button>
+            </div>
+        </nav>
+
+         <!-- Flerfärgad rad, den nedre -->
+        <div class="d-flex flex-row"> 
+            <div class="col bar-height bg-warning d-none d-md-block"></div>
+            <div class="col bar-height bg-success d-none d-md-block"></div>
+            <div class="col bar-height bg-danger d-none d-md-block"></div>
+            <div class="col bar-height bg-info d-none d-md-block"></div>
+            <div class="col bar-height bg-primary d-none d-md-block"></div>
+            <div class="col bar-height bg-cozy d-none d-md-block"></div>
+            <div class="col bar-height bg-warning"></div>
+            <div class="col bar-height bg-success"></div>
+            <div class="col bar-height bg-danger"></div>
+            <div class="col bar-height bg-info"></div>
+            <div class="col bar-height bg-primary"></div>
+            <div class="col bar-height bg-cozy"></div>
+        </div>
+
+        <!-- Dropdown menu (syns bara om skärmen/fönstret är mindre än medium) -->
+        <div class="d-md-none d-block mx-3">
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom">
+                <i class="fa fa-home text-white shadow bg-info rounded-100 text-center nav-icon ml-2"></i>
+                <span class="text-info">Home</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom">
+                <i class="fa fa-store text-white shadow bg-cozy rounded-100 text-center nav-icon ml-2"></i>
+                <span class="text-cozy">Store</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom">
+                <i class="fa fa-user-graduate text-white shadow bg-success rounded-100 text-center nav-icon ml-2"></i>
+                <span class="text-success">Courses</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom">
+                <i class="fa fa-blog text-white shadow bg-warning rounded-100 text-center nav-icon ml-2"></i>
+                <span class="text-warning">Blog</span>
+            </a>
+        </div>
+    </header>
+</body>
+</html>
